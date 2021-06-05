@@ -25,7 +25,7 @@ const Hero = styled.div`
   text-align: center;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/pan-bg2.svg'), url('/images/pan-bg.svg');
+    background-image: url('/images/tito-coin.svg'), url('/images/tito-coin.svg');
     background-position: left center, right center;
     height: 165px;
     padding-top: 0;
@@ -93,7 +93,7 @@ const Home: React.FC = () => {
         <Heading as="h1" scale="xl" mb="24px" color="secondary">
           {t('TITOSwap')}
         </Heading>
-        <Text>{t('The #1 AMM and yield farm on Binance Smart Chain.')}</Text>
+        <Text>{t('Like the ancient hawaiians always said, a coconut does not fall far from it\'s tree.')}</Text>
       </Hero>
       <div>
         <Cards>
